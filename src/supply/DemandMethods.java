@@ -18,7 +18,7 @@ public interface DemandMethods {
 	public int getDBuyMethod();
 	public int getDifficulty();
 	public int getDLifeTime();
-	public int getGameStyle();
+	public String getGameStyle();
 	public int[] getStoryType();
 	public Triplet<String, String, Integer>[] getGameSupportEquipements();
 	public Triplet<String, String, Integer>[] getAccessoryEquipements();

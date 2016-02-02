@@ -170,9 +170,9 @@ public class Demand implements DemandMethods{
 	 * Fonction retournant le choix pour le style de jeu
 	 * @return dgst.DGameStyle() : int symbolisant un style de jeu.
 	 */
-	public int getGameStyle()
+	public String getGameStyle()
 	{
-		return (dgst ==null)? null:dgst.getType();
+		return (dgst ==null)? null:dgst.getStyle();
 	}
 	
 	/**

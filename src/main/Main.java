@@ -38,7 +38,7 @@ public class Main {
 				new DBuyMethod(new DPrice(30, 70), 1), 
 				new DDifficulty(2), 
 				new DLifeTime(2), 
-				new DGameStyle(0), 
+				new DGameStyle("A-RPG"), 
 				new DStoryType(0,2), 
 				new DGameSupport(Construct, Name, type), 
 				new DAccessory(Construct, Access, type),
@@ -59,7 +59,7 @@ public class Main {
 				new SBuyMethod(new SPrice(75), 1), 
 				new SDifficulty(0), 
 				new SLifeTime(0),
-				new SGameStyle(),
+				new SGameStyle("A-RPG"),
 				new SStoryType(),
 				new SGameSupport(construct2, name2, Type2),
 				new SAccessory(null, null, null)
@@ -76,7 +76,7 @@ public class Main {
 						new SPrice(45), 0),
 				new SDifficulty(1),
 				new SLifeTime(1),	
-				new SGameStyle(),
+				new SGameStyle("MMORPG"),
 				new SStoryType(),
 				new SGameSupport(construct2, name2, Type2),
 				new SAccessory(null, null, null)
@@ -94,7 +94,7 @@ public class Main {
 						new SPrice(35), 0),
 				new SDifficulty(2),
 				new SLifeTime(2), 
-				new SGameStyle(),
+				new SGameStyle("Fiction Intéractive"),
 				new SStoryType(),
 				new SGameSupport(construct2, name2, Type2),
 				new SAccessory(null, null, null)
@@ -114,7 +114,7 @@ public class Main {
 						new SPrice(25), 1),
 				new SDifficulty(3),
 				new SLifeTime(3),
-				new SGameStyle(),
+				new SGameStyle("Visual Novels"),
 				new SStoryType(),
 				new SGameSupport(construct1, name1, Type1),
 				new SAccessory(null, null, null)
@@ -134,7 +134,7 @@ public class Main {
 						new SPrice(45), 1),
 				new SDifficulty(2),
 				new SLifeTime(2),
-				new SGameStyle(),
+				new SGameStyle("MMORPG"),
 				new SStoryType("Horreur", "Aventure"),
 				new SGameSupport(construct, name, Type),
 				new SAccessory(new String[] {"Nintendo", "Nintendo"," Microsoft"}, new String[] {"WiiMote","GamePad","Xbox360"}, new String[]{"Manette", "Manette", "Manette"})

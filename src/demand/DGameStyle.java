@@ -9,21 +9,21 @@ package demand;
  */
 public class DGameStyle {
 		// ATTRIBUTS
-	private int type;	// Numéro contenant le Mode de jeu.
+	private String main_style;
 	
 		// CONSTRUCTUEUR
-	public DGameStyle(int item)
+	public DGameStyle(String s1)
 	{
-		type = item;
+		main_style = s1;
 	}
 	
 		// METHODE
 	/**
-	 * Fonction retournant le numéro du type de jeu dont il s'agit (En ligne | Hors ligne).
-	 * @return type : entier représentant le choix du type de jeu.
+	 * Fonction retournant le numero du type de jeu dont il s'agit (En ligne | Hors ligne).
+	 * @return type : entier representant le choix du type de jeu.
 	 */
-	public int getType()
+	public String getStyle()
 	{
-		return type;
+		return main_style;
 	}
 }

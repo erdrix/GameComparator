@@ -33,7 +33,7 @@ public class Supply {
 		criterion[6] = bm;
 		criterion[7] = diff;
 		criterion[8] = lt;
-		//criterion[9] = gst; 
+		criterion[9] = gst; 
 		criterion[10]= st;
 		criterion[11]= gs;
 		criterion[12]= acce;
